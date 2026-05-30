@@ -53,11 +53,11 @@ export function HeroSection() {
         <div className="order-1 mx-auto w-full max-w-[420px] md:max-w-[470px] lg:order-2 lg:max-w-[520px]">
           <div className="relative aspect-[4/4.5]">
               <Image
-                src="/images/about-me.jpg"
+                src="/images/dilip-kumar-software-engineer.jpg"
                 fill
                 alt="Dilip's Photo"
                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 45vw, 100%"
-                className="object-contain object-center scale-[1.18] translate-y-3"
+                className="object-contain object-center translate-y-3"
                 priority={false}
               />
             </div>

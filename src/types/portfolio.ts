@@ -20,13 +20,19 @@ export type ProjectItem = {
   description: string;
   tags?: string[];
   imageUrl: string;
-  link: string
+  link: string;
 };
 
 export type Testimonial = {
   quote: string;
   author: string;
   designation: string;
+  imageUrl?: string;
+  linkedinUsername?: string;
+};
+
+export type TestimonialDisplay = Testimonial & {
+  avatarUrl: string;
 };
 
 export type SocialLink = {
