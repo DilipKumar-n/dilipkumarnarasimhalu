@@ -9,7 +9,7 @@ export function AboutSection() {
         <div className="mx-auto w-full max-w-[520px]">
           <div className="relative aspect-[4/4.5] overflow-hidden rounded-[1.25rem] border-4 border-black shadow-[0_20px_50px_-25px_rgba(0,0,0,0.45)]">
             <Image
-              src="/images/about-me.jpg"
+              src="/images/dilip-kumar-software-engineer.jpg"
               alt="Illustration portrait"
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1280px) 45vw, 520px"

@@ -37,25 +37,87 @@ export const skills: Skill[] = [
 
 export const experienceItems: ExperienceItem[] = [
   {
-    role: "Senior Frontend Engineer",
-    company: "Tech Solutions Inc.",
-    duration: "Jan 2023 - Present",
-    description:[
-      "Leading frontend development initiatives, architecting scalable React applications, and mentoring junior developers. Improved application performance by 40% through optimization techniques."],
+    role: "Freelance Frontend Engineer",
+    company: "Independent · Bengaluru",
+    duration: "Aug 2025 – Present",
+    description: [
+      "Took a planned career break to support family priorities while continuing selective freelance and consulting work.",
+      "Delivered frontend solutions using React.js, VTEX Commerce, and TypeScript for client projects.",
+      "Explored modern frontend tooling and architectures including micro-frontends and performance optimization techniques.",
+    ],
   },
   {
-    role: "Frontend Developer",
-    company: "Digital Innovations Ltd.",
-    duration: "Jun 2021 - Dec 2022",
-    description:[
-      "Developed and maintained responsive web applications using React and Next.js. Collaborated with UX/UI designers to implement pixel-perfect designs and improved user engagement metrics."],
+    role: "Technical Lead / Senior Frontend Engineer",
+    company: "Wipro Ltd.",
+    duration: "Jul 2024 – Aug 2025",
+    description: [
+      "Led a team delivering a React.js + TypeScript + Contentful CMS enterprise web app.",
+      "Improved performance by 25% using code-splitting, lazy loading, and optimized rendering.",
+      "Built REST APIs with Node.js/Express.js, reducing response time by 15%.",
+      "Ensured mobile-first, responsive design with Tailwind CSS, boosting mobile traffic engagement.",
+      "Mentored developers, conducted code reviews, and streamlined estimation processes, reducing delivery delays.",
+    ],
   },
   {
-    role: "Junior Frontend Developer",
-    company: "WebDev Studio",
-    duration: "Jan 2020 - May 2021",
-    description:[
-      "Started career building frontend components and contributing to full-stack projects. Learned best practices in web development and established strong foundation in React and JavaScript."],
+    role: "Technical Lead / Senior Frontend Engineer",
+    company: "Trika Technologies Pvt. Ltd.",
+    duration: "Dec 2020 – Jun 2024",
+    description: [
+      "Delivered multiple e-commerce websites on VTEX Commerce using React.js, Node.js, and GraphQL.",
+      "Developed and published loyalty rewards apps on VTEX marketplace, enhancing customer retention.",
+      "Integrated 3rd party services (payment gateways, reviews, newsletter) via custom React components.",
+      "Improved checkout flow conversion rate by 18% through UX and performance enhancements.",
+      "Directed development sprints, enforced coding standards, and reduced QA defects.",
+    ],
+  },
+  {
+    role: "Sr. Associate – Projects (Frontend / Automation)",
+    company: "Cognizant Technology Solutions",
+    duration: "Oct 2019 – Dec 2020",
+    description: [
+      "Built HYDRA automation testing framework for Walt Disney World using Protractor.",
+      "Achieved 80% test automation coverage, reducing manual QA by 100+ hours per release.",
+      "Created reusable page objects, locators, and test suites to improve maintainability.",
+      "Actively contributed to GitHub repos, peer reviews, and documentation updates.",
+    ],
+  },
+  {
+    role: "Web Developer",
+    company: "Primus Global Technologies Pvt. Ltd.",
+    duration: "May 2018 – Oct 2019",
+    description: [
+      "Built responsive web components with HTML, CSS, and JavaScript following Oracle standards.",
+      "Delivered pixel-perfect PSD-to-HTML conversions, reducing UI defects by 30%.",
+      "Developed dashboards and CRUD services using Oracle APEX + REST APIs.",
+    ],
+  },
+  {
+    role: "Interactive Developer",
+    company: "Echidna Software Pvt. Ltd.",
+    duration: "May 2016 – May 2018",
+    description: [
+      "Developed e-commerce sites on Kibo (Mozu) with HTML, CSS, JavaScript, and Backbone.js.",
+      "Owned end-to-end delivery of pixel-perfect, SEO-compliant, and mobile-responsive websites.",
+      "Built reusable widgets and interactive components for dynamic content management.",
+    ],
+  },
+  {
+    role: "Web Developer",
+    company: "Primus Global Technologies Pvt. Ltd.",
+    duration: "Feb 2015 – May 2016",
+    description: [
+      "Migrated Oracle Partner Network pages to modern layouts using Oracle WebCenter Content.",
+      "Supported global partner requests, ensuring content accuracy and compliance.",
+    ],
+  },
+  {
+    role: "Software Developer",
+    company: "STYRE Solutions Pvt. Ltd.",
+    duration: "Dec 2012 – Jan 2015",
+    description: [
+      "Created responsive websites with HTML, CSS, and JavaScript by converting PSD to HTML.",
+      "Handled end-to-end hosting, database schema design, and maintenance for client sites.",
+    ],
   },
 ];
 
@@ -83,7 +145,7 @@ export const projects: ProjectItem[] = [
   },
   {
     id: "03",
-    imageUrl: "/images/Jefferspet.png",
+    imageUrl: "/images/jefferspet.png",
     title: "Jeffers Pet, Equine & Livestock | Animal & Pet Supplies Store",
     link: "https://jefferspet.com",
     tags: ["React.js", "Node.js", "VTEX Commerce", "REST API's", "Tachyons", "GA/GTM", "Figma"],
@@ -167,21 +229,17 @@ export const projects: ProjectItem[] = [
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "I recently had to jump on 10+ different calls across eight different countries to find the right owner.",
-    author: "Evren Shah",
-    designation: "Designer",
+      "I had the chance to work closely with Dilip during my contract role at Wipro, where I was part of the project as a Solutions Architect and he led the technical delivery as Tech Lead. From day one, Dilip impressed me with his calm, focused approach and deep technical expertise. He's one of those people who just gets things done — whether it's solving tricky integration challenges, guiding the team on implementation best practices, or jumping in to support others when things get tight. Dilip has a great way of translating high-level architecture into practical, scalable solutions that actually work. What I really appreciated about working with him was his collaborative style. He listens, challenges ideas when needed, and always keeps the bigger picture in mind. It made working together not just easy, but genuinely enjoyable. I'd happily work with Dilip again anytime and highly recommend him for any senior tech or leadership role. He's the kind of teammate every project needs.",
+    author: "Jatin Waichal",
+    designation: "Solutions Architect",
+    linkedinUsername: "jatin-waichal",
   },
   {
     quote:
-      "I recently had to jump on 10+ different calls across eight different countries to find the right owner.",
-    author: "Flora sheen",
-    designation: "Designer",
-  },
-  {
-    quote:
-      "I recently had to jump on 10+ different calls across eight different countries to find the right owner.",
-    author: "Evren Shah",
-    designation: "Designer",
+      "I had the pleasure of working closely with Dilip Kumar for nearly two years, during which he played a key role on our frontend development team. From the very beginning, Dilip demonstrated a deep passion for UI development and a remarkable ability to translate design concepts into pixel-perfect, high-performance user interfaces. Dilip has a sharp eye for detail — he doesn't just implement designs but ensures they align exactly with the designer's vision, paying close attention to spacing, typography, responsiveness, and interaction nuances. His commitment to quality is exceptional, and he takes pride in delivering work that meets the highest standards in both functionality and visual fidelity. What sets Dilip apart is not only his dedication but also his willingness to go the extra mile to meet tight deadlines without compromising quality. He consistently showed initiative and was quick to adapt to new frontend technologies, frameworks, and tools. Whether it was refining animations, optimizing performance, or debugging complex layout issues, Dilip approached every challenge with determination and skill. He also brought a collaborative and supportive attitude to the team, always open to feedback and ready to contribute wherever needed. His professionalism, reliability, and passion for frontend development made him an asset to our projects and a pleasure to work with. Dilip would be a strong addition to any team that values clean, scalable, and pixel-perfect frontend work. I truly look forward to working with him again.",
+    author: "Pradeep Ramachandran",
+    designation: "Senior Software Engineer",
+    linkedinUsername: "pradeep-ramachandran-5467a9114",
   },
 ];
 
